@@ -37,7 +37,7 @@ defmodule CaboCha.MixProject do
   defp package() do
     [
       # This option is only needed when you don't want to use the OTP application name
-      name: "postgrex",
+      name: :cabo_cha,
       # These are the default files included in the package
       files: ~w(lib mix.exs README.md LICENSE),
       maintainers: ~w(sa2taka),
