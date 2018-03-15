@@ -32,8 +32,9 @@ defmodule CaboCha do
   If read_from_file is true, The file is parsed using str as the filename
 
   ## Examples
-  
-  iex(1)> CaboCha.parse("太郎は花子が読んでいる本を次郎に渡した")
+
+  ```elixir
+  iex> CaboCha.parse("太郎は花子が読んでいる本を次郎に渡した")
   [
     %{
       "chunk" => %{
@@ -290,6 +291,7 @@ defmodule CaboCha do
       ]
     }
   ]
+  ```
   """
 
   @spec parse(String.t, boolean()) :: [Map.t, ...]
