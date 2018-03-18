@@ -296,7 +296,7 @@ defmodule CaboCha do
   ```
   """
 
-  @spec parse(String.t, boolean()) :: [Map.t, ...]
+  @spec parse(String.t, boolean()) :: [[Map.t, ...], ...]
 
   def parse(str, read_from_file \\ false) do
     command = case read_from_file do
